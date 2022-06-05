@@ -4,7 +4,7 @@
 
 #And dont forget to add it on the tools and flags array and also increasing the for loop iterator
 
-#Written by CodexX github : 
+#Written by CodexX github : https://github.com/CodexX777/Bug-hunting-Automation-Scripts/
 
 
 figlet "CodexX"
