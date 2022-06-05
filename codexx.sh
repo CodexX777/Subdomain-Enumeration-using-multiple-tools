@@ -9,6 +9,8 @@
 
 figlet "CodexX"
 echo ""
+echo "Hack Wisely !!"
+echo ""
 echo "Enter the Domain you want to enumerate : "
 echo ""
 read Domain
