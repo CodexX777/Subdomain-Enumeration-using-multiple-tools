@@ -12,12 +12,17 @@ HOW TO RUN :
 
 $ chmod +x codexx.sh
 
+$ mv codexx.sh /usr/bin/codexx.sh
+
 $ ./codexx.sh
 
 NOTE :
 
-you must have these 4 tools pre installed in your /usr/bin dir
-findomain , subfinder, sublist3r , amass
+you must have these 5 tools pre installed in your /usr/bin directory
+
+findomain , subfinder, sublist3r , amass , httprobe
+
+[ Output of the script will be at the working directory ]
 
 You can add more tools to the script, if you can't then messege me on insta id : https://www.instagram.com/shivang_26_/
 
