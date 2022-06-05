@@ -9,7 +9,9 @@ INSTALLATION :
 $ git clone https://github.com/CodexX777/Bug-hunting-Automation-Scripts/
 
 HOW TO RUN :
+
 $ chmod +x codexx.sh
+
 $ ./codexx.sh
 
 NOTE :
