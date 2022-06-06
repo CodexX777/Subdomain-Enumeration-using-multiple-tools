@@ -34,10 +34,6 @@ then
 		flags[i]=$flag
 	done
 	echo ""
-	echo "Do you want to use httprobe ? [1 - Yes /0 - NO]"
-	echo ""
-	read htp
-
 
 	findomain ${flags[0]} -t $Domain --output
 	subfinder ${flags[1]} -d $Domain >sub2.txt
@@ -53,9 +49,11 @@ fi
 
 cat $Domain.txt sub2.txt sub3.txt sub4.txt >sub.txt
 rm $Domain.txt sub2.txt sub3.txt sub4.txt
-sort -u sub.txt > subdomain.txt
+sort -u sub.txt > $Domain.txt
 rm sub.txt
-if [ $htp == 1 ];
-then
-	httprobe < subdomain.txt > alive.txt
-fi
+httprobe < $Domain.txt > alive.$Domain.txt
+
+echo "Results stored in $Domain.txt and alive.$Domain.txt in the current directory."
+echo ""
+echo "Enjoy !!!"
+
