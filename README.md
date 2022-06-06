@@ -1,22 +1,28 @@
-# Bug-hunting-Automation-Scripts
+# Subdomain-Enumeration-using-multiple-tools
 
 This Repo provides scripts that automate your tasks during Bug Hunting
 
 Feel free to improve this Script 
 
-INSTALLATION :
+# INSTALLATION :
 
+```
 $ git clone https://github.com/CodexX777/Bug-hunting-Automation-Scripts/
+```
 
-HOW TO RUN :
+# HOW TO RUN :
 
+```
 $ chmod +x codexx.sh
-
+```
+```
 $ mv codexx.sh /usr/bin/codexx.sh
-
+```
+```
 $ ./codexx.sh
+```
 
-NOTE :
+# NOTE :
 
 you must have these 5 tools pre installed in your /usr/bin directory
 
