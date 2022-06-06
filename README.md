@@ -7,7 +7,7 @@ Feel free to improve this Script
 # INSTALLATION :
 
 ```
-$ git clone https://github.com/CodexX777/Bug-hunting-Automation-Scripts/
+$ git clone https://github.com/CodexX777/Subdomain-Enumeration-using-multiple-tools
 ```
 
 # HOW TO RUN :
